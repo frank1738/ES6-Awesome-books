@@ -1,7 +1,8 @@
 import { myLibrary } from './Library.js';
 const bookTitle = document.querySelector('#title');
 const bookAuthor = document.querySelector('#author');
-export const addBook = (e) => {
+
+const addBook = (e) => {
   e.preventDefault();
   if (bookTitle.value === '' || bookAuthor.value === '') {
     return;
@@ -12,3 +13,5 @@ export const addBook = (e) => {
   bookAuthor.value = '';
   window.location.reload();
 };
+
+export default addBook;

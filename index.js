@@ -1,6 +1,5 @@
 import { currentTime } from './modules/SetTime.js';
 import { Select } from './modules/SelectMenu.js';
-import { Library } from './modules/Library.js';
 import { addBook } from './modules/AddBook.js';
 import { myLibrary } from './modules/Library.js';
 
@@ -9,12 +8,8 @@ const bookTitle = document.querySelector('#title');
 const bookAuthor = document.querySelector('#author');
 const addBtn = document.querySelector('#submit');
 const navItems = document.querySelectorAll('.link');
-const bookList = document.querySelector('.book-list');
-const header = document.querySelector('.header');
 const newBook = document.querySelector('.add-new');
-const contact = document.querySelector('.contact-section');
 const contactSection = document.querySelector('.contact-information');
-const siteDate = document.querySelector('.time');
 const homePage = document.querySelector('.books-container');
 const linkItems = document.querySelectorAll('.link');
 const homeLink = document.querySelector('.home');

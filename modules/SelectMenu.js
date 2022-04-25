@@ -4,7 +4,7 @@ const addLink = document.querySelector('.add');
 const contactLink = document.querySelector('.contact-link');
 const newBook = document.querySelector('.add-new');
 const contactSection = document.querySelector('.contact-information');
-export const Select = (key) => {
+const Select = (key) => {
   if (key === 'List') {
     homePage.classList.remove('hide');
     newBook.classList.add('hide');
@@ -21,7 +21,7 @@ export const Select = (key) => {
     addLink.classList.add('select');
     contactLink.classList.remove('select');
   }
-  if (key == 'Contact') {
+  if (key === 'Contact') {
     homePage.classList.add('hide');
     contactSection.classList.remove('hide');
     newBook.classList.add('hide');
@@ -30,3 +30,5 @@ export const Select = (key) => {
     contactLink.classList.add('select');
   }
 };
+
+export default Select;
