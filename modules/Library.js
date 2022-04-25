@@ -1,4 +1,3 @@
-// import { bookSection } from '../index.js';
 const bookSection = document.querySelector('.book-list');
 export class Library {
   constructor() {

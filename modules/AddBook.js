@@ -1,4 +1,8 @@
 /* eslint-disable import/prefer-default-export */
+const newBook = document.querySelector('.add-new');
+const homePage = document.querySelector('.books-container');
+const homeLink = document.querySelector('.home');
+const addLink = document.querySelector('.add');
 import { myLibrary } from './Library.js';
 
 const bookTitle = document.querySelector('#title');
@@ -12,5 +16,8 @@ export const addBook = (e) => {
   localStorage.setItem('book-collection', JSON.stringify(myLibrary.library));
   bookTitle.value = '';
   bookAuthor.value = '';
-  window.location.reload();
+  newBook.classList.add('hide');
+  homePage.classList.remove('hide');
+  homeLink.classList.add('select');
+  addLink.classList.remove('select');
 };
