@@ -1,4 +1,5 @@
-import { bookSection } from '../index.js';
+// import { bookSection } from '../index.js';
+const bookSection = document.querySelector('.book-list');
 export class Library {
   constructor() {
     this.library = JSON.parse(localStorage.getItem('book-collection')) || [];
@@ -42,3 +43,5 @@ export class Library {
     });
   }
 }
+
+export const myLibrary = new Library();

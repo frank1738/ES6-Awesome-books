@@ -1,4 +1,6 @@
-import { bookAuthor, bookTitle, myLibrary } from '../index.js';
+import { myLibrary } from './Library.js';
+const bookTitle = document.querySelector('#title');
+const bookAuthor = document.querySelector('#author');
 export const addBook = (e) => {
   e.preventDefault();
   if (bookTitle.value === '' || bookAuthor.value === '') {

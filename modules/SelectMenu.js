@@ -1,11 +1,9 @@
-import {
-  homePage,
-  contactSection,
-  newBook,
-  homeLink,
-  addLink,
-  contactLink,
-} from '../index.js';
+const homePage = document.querySelector('.books-container');
+const homeLink = document.querySelector('.home');
+const addLink = document.querySelector('.add');
+const contactLink = document.querySelector('.contact-link');
+const newBook = document.querySelector('.add-new');
+const contactSection = document.querySelector('.contact-information');
 export const Select = (key) => {
   if (key === 'List') {
     homePage.classList.remove('hide');

@@ -2,6 +2,7 @@ import { currentTime } from './modules/SetTime.js';
 import { Select } from './modules/SelectMenu.js';
 import { Library } from './modules/Library.js';
 import { addBook } from './modules/AddBook.js';
+import { myLibrary } from './modules/Library.js';
 
 const bookSection = document.querySelector('.book-list');
 const bookTitle = document.querySelector('#title');
@@ -23,8 +24,6 @@ linkItems.forEach((item) => {
   item.addEventListener('click', Select);
 });
 
-const myLibrary = new Library();
-
 myLibrary.createBook();
 currentTime();
 
@@ -44,7 +43,6 @@ export {
   bookTitle,
   bookAuthor,
   myLibrary,
-  siteDate,
   homeLink,
   contactLink,
   addLink,
