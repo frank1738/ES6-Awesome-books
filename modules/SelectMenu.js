@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 const homePage = document.querySelector('.books-container');
 const homeLink = document.querySelector('.home');
 const addLink = document.querySelector('.add');

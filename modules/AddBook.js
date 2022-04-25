@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 import { myLibrary } from './Library.js';
 
 const bookTitle = document.querySelector('#title');

@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export *//* eslint-disable import/prefer-default-export */
 import { DateTime } from './luxon/time.js';
 
 const siteDate = document.querySelector('.time');
