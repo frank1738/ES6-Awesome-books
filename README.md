@@ -2,7 +2,7 @@
 
 # Awesome Books app
 This is a Book app that enable users to track their favourite Books.
-In this version of the Book App, the user will be getting four options
+In this version of the Book App, the user will be getting three options
 - Adding a new Book in to the Book List
 - See all the Books that were added to the app
 - Delete any Book from the list of Books
