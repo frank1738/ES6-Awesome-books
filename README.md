@@ -70,9 +70,9 @@ To get a local copy up and running follow these simple example steps.
 
 See the [open issues](#) for a full list of proposed features (and known issues).
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Frankline Osoro**
 
 - GitHub: [@frank1738](https://github.com/frank1738)
 - Twitter: [@frankhiggins08](https://twitter.com/frankhiggins08)
